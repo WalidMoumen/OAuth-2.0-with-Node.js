@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <a href="https://github.com/login/oauth/authorize?client_id=yourclientid&redirect_uri=http://localhost:8080/oauth/redirect">
+    Login with github
+  </a>
+</body>
+
+</html>
+
+Node.js OAuth example
+
+Read the blog post here
+
+This is an example node application that implements Githubs OAuth2 API.
+
+In order to run the application:
+
+    Register your new application on Github : https://github.com/settings/applications/new. In the "callback URL" field, enter "http://localhost:8080/oauth/redirect". Once you register, you will get a client ID and client secret.
+    Replace the values of the clientID and clientSecret variables in the index.js file
+    Install dependencies by executing: npm install or yarn.
+    Start the server by executing node index.js
+    Navigate to http://localhost:8080 on your browser.
